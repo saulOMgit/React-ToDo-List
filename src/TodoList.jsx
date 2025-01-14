@@ -43,7 +43,7 @@ export const TodoList = () => {
     }
 
     return (
-        <div className="todo-list">
+        <div className="todo-list animate__animated animate__fadeInUp">
             {tasks.map(task => (
                 <TodoItem
                     key={task.id}

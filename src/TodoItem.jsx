@@ -5,7 +5,7 @@ function handleChange() {
  }
  
  return (
- <div className="todo-item">
+ <div className="todo-item animate__animated animate__fadeInUp">
  <input 
  type="checkbox"
  checked={task.completed}
